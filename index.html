@@ -1,0 +1,298 @@
+
+<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><link rel="icon" href="data:">
+<title>music player</title>
+<style>
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+.player-container {
+  vertical-align: top;
+  display: inline-block;
+  margin: 20px;
+  x-width: 100%;
+  max-width: 400px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  border-radius: 10px;
+  max-height: calc(100vh - 6em);
+  overflow: scroll;
+}
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+.blur-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  filter: blur(50px);
+  opacity: .8;
+  z-index: -1;
+  background-size: cover;        /* 画面いっぱい */
+  background-position: center;   /* 中央基準 */
+  background-repeat: no-repeat;  /* 繰り返さない */
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0 0 0;
+  text-align: left;
+  max-height: calc(100vh - 13em);
+  overflow: scroll;
+}
+li {
+  margin: 5px 0;
+  padding: 5px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 5px;
+  cursor: pointer;
+}
+li.playing {
+  background-color: #333;
+  color: #ddd;
+}
+audio {
+  width: 100%;
+  margin-top: 10px;
+}
+#div_info, #div_lylic {
+  white-space: pre-wrap;
+  text-align: left;
+  overflow: scroll;
+}
+.credit {
+  margin-top: 1em;
+}
+.credit a {
+  color: gray !important;
+}
+</style>
+</head>
+<body>
+    <div class="blur-background" id="div_bg"></div>
+    <div class="player-container">
+      <h2 id="h2_title"></h2>
+      <ul id="ul_playlist"></ul>
+      <div class="credit"><a id="a_src" href="https://github.com/code4fukui/music-handaduke/">src on GitHub</a></div>
+    </div>
+    <div class="player-container">
+      <img id="img_jacket" alt="ジャケット画像">
+      <audio controls id="audio_main"></audio>
+      <div id="div_info"></div>
+    </div>
+    <div class="player-container" id="div_lylic"></div>
+
+<script type="module">
+import { shuffle } from "https://js.sabae.cc/shuffle.js";
+import { EXT } from "https://code4fukui.github.io/EXT/EXT.js";
+
+const url = document.location.href;
+if (url.indexOf(".github.io/") >= 0) {
+  const ss = url.split("/");
+  const srcurl = "https://github.com/" + ss[2].split(".")[0] + "/" + ss[3] + "/";
+  a_src.href = srcurl;
+}
+
+// set prompt as title
+const setTitle = (data) => {
+  data.forEach(i => {
+    if (i.clip.metadata.gpt_description_prompt) {
+      const ss = i.clip.metadata.gpt_description_prompt.split(",");
+      i.clip.title = ss.length < 2 ? ss[0] : ss[0] + " / " + ss[1];
+    } else if (i.clip.metadata.tags) {
+      i.clip.title = data0.name + " / " + i.clip.metadata.tags.split(",")[0];
+    } else {
+      i.clip.title = data0.name;
+    }
+  });
+  const cutGenreIfAllSame = (data) => {
+    const getGenre = s => s.substring(s.lastIndexOf(" / "));
+    const genre = getGenre(data[0].clip.title);
+    for (let i = 1; i < data.length; i++) {
+      if (getGenre(data[i].clip.title) != genre) return false;
+    }
+    data.forEach(i => {
+      i.clip.title = i.clip.title.substring(0, i.clip.title.length - genre.length);
+    });
+    return true;
+  };
+  cutGenreIfAllSame(data);
+  console.log(data);
+};
+
+export const likeSort = (data) => {
+  const res1 = [];
+  const res2 = [];
+  for (let i = 0; i < data.length; i += 2) {
+    //console.log(i, data[i].clip.is_liked, data[i + 1].clip.is_liked)
+    if (data[i].clip.is_liked || data[i + 1].clip.is_liked) {
+      if (data[i].clip.is_liked) {
+        res1.push(data[i]);
+        res1.push(data[i + 1]);
+      } else {
+        res1.push(data[i + 1]);
+        res1.push(data[i]);
+      }
+    } else {
+      res2.push(data[i]);
+      res2.push(data[i + 1]);
+    }
+  }
+  return [...res1, ...res2];
+};
+
+export const riffleShuffle = (data) => {
+  const res = [];
+  for (let i = 0; i < data.length; i += 2) {
+    res.push(data[i]);
+    console.log(i, data[i])
+    //data[i].clip.title += " A";
+  }
+  for (let i = 1; i < data.length; i += 2) {
+    res.push(data[i]);
+    data[i].clip.title += " B";
+  }
+  return res;
+};
+
+export const riffleShuffleReverse = (data) => {
+  const res = [];
+  for (let i = data.length - 2; i >= 0; i -= 2) {
+    res.push(data[i]);
+  }
+  for (let i = data.length - 1; i >= 0; i -= 2) {
+    res.push(data[i]);
+    data[i].clip.title += " B";
+  }
+  return res;
+};
+
+const data0 = await (await fetch("playlist.json")).json();
+console.log(data0);
+setTitle(data0.playlist_clips);
+//const data = data0.playlist_clips;
+//const data = riffleShuffle(data0.playlist_clips);
+const data = riffleShuffleReverse(data0.playlist_clips);
+//const data = likeSort(data0.playlist_clips);
+//const data = riffleShuffle(likeSort(data0.playlist_clips));
+//const data = riffleShuffle(data0.playlist_clips);
+/*
+shuffle(data0.playlist_clips);
+const data = data0.playlist_clips;
+*/
+
+document.title = h2_title.textContent = data0.name;
+
+const unescape = (s) => {
+  return s.replace(/\\n/g, "\n");
+};
+
+let nowclip = null;
+
+const next = () => {
+  for (let i = 0; i < data.length; i++) {
+    if (data[i].clip == nowclip) {
+      show(i + 1 == data.length ? data[0].clip : data[i + 1].clip);
+      break;
+    }
+  }
+};
+const prev = () => {
+  for (let i = 0; i < data.length; i++) {
+    if (data[i].clip == nowclip) {
+      show(i - 1 == -1 ? data[data.length - 1].clip : data[i - 1].clip);
+      break;
+    }
+  }
+};
+
+function updatePositionState() {
+  if (!navigator.mediaSession) return;
+  try {
+    navigator.mediaSession.setPositionState({
+      duration: isFinite(audio_main.duration) ? audio_main.duration : 0,
+      playbackRate: audio_main.playbackRate || 1,
+      position: isFinite(audio_main.currentTime) ? audio_main.currentTime : 0,
+    });
+  } catch (e) {
+    console.log(e);
+  }
+}
+
+const show = async (clip) => {
+  ul_playlist.querySelectorAll("li").forEach(i => i.className = "");
+  clip.li.className = "playing";
+  nowclip = clip;
+  const imgurl = clip.image_large_url;
+  img_jacket.src = imgurl;
+  div_bg.style.backgroundImage = `url('${imgurl}')`;
+  const ss = [];
+  ss.push(`曲名:\n${clip.title}`);
+  if (clip.metadata.gpt_description_prompt) {
+    ss.push(`プロンプト:\n${clip.metadata.gpt_description_prompt}`);
+  }
+  if (clip.metadata.tags) {
+    ss.push(`tags:\n${clip.metadata.tags}`);
+  }
+  div_info.textContent = ss.join("\n\n");
+  div_lylic.textContent = unescape(clip.metadata.prompt);
+
+  audio_main.src = clip.audio_url;
+  audio_main.play();
+  audio_main.onended = () => next();
+  //audio_main.onended = () => prev();
+
+  // for Media Session API
+  if (navigator.mediaSession) {
+    navigator.mediaSession.metadata = new MediaMetadata({
+      title: clip.title,
+      //artist: clip.artist,
+      album: data0.name,
+      artwork: [{ src: imgurl, size: "1024x1024" , type: 'image/' + EXT.get(imgurl) }],
+    });
+    // 再生位置情報（スクラブ/UIの精度が増す）
+    updatePositionState();
+  }
+};
+
+for (const item of data) {
+  const li = document.createElement("li");
+  li.textContent = item.clip.title;
+  ul_playlist.appendChild(li);
+  item.clip.li = li;
+  li.onclick = () => show(item.clip);
+}
+show(data[0].clip);
+
+// for Media Session API - リモコン（CarPlay/BTボタン/ロック画面/イヤホン）ハンドラ
+if (navigator.mediaSession) {
+  navigator.mediaSession.setActionHandler('play',  () => {
+    if (nowclip) {
+      audio_main.play();
+    } else {
+      show(data[0].clip);
+    }
+  });
+  navigator.mediaSession.setActionHandler('pause', () => audio_main.pause());
+  navigator.mediaSession.setActionHandler('previoustrack', prev);
+  navigator.mediaSession.setActionHandler('nexttrack', next);
+  navigator.mediaSession.setActionHandler('seekto', (d) => {
+    if (typeof d.seekTime === 'number') audio_main.currentTime = d.seekTime;
+    updatePositionState();
+  });
+}
+
+</script>
+
+</body>
+</html>

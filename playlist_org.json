@@ -1,0 +1,1074 @@
+{
+  "entity_type": "playlist_schema",
+  "id": "2e98eb60-6f58-4b4f-8cef-7cf69f9f5f67",
+  "name": "親子丼",
+  "playlist_clips": [
+    {
+      "clip": {
+        "status": "complete",
+        "title": "親子丼ブルース",
+        "play_count": 1,
+        "upvote_count": 0,
+        "allow_comments": true,
+        "is_verified": false,
+        "id": "a5d20ca2-0542-4df9-be56-97f711a81cc7",
+        "entity_type": "song_schema",
+        "video_url": "",
+        "audio_url": "https://cdn1.suno.ai/a5d20ca2-0542-4df9-be56-97f711a81cc7.mp3",
+        "image_url": "https://cdn2.suno.ai/image_a5d20ca2-0542-4df9-be56-97f711a81cc7.jpeg",
+        "image_large_url": "https://cdn2.suno.ai/image_large_a5d20ca2-0542-4df9-be56-97f711a81cc7.jpeg",
+        "major_model_version": "v5.5",
+        "model_name": "chirp-fenix",
+        "metadata": {
+          "tags": "Fast enka with a galloping waltz-leaning pulse, brisk shamisen and taiko accents, accordion sparkle in the turnaround; verse rides tight storytelling with short runs, pre-chorus lifts with rising melodic bends, chorus lands on a chantable refrain with stacked unison doubles. Breathy lead vocal with dramatic sobs, tight harmony on hook lines, quick ad-lib cries between phrases. Ear candy includes koto flicks, handclap pickups, and a sharp fill before each chorus. Bright, punchy mix with a glossy traditional sheen., enka",
+          "prompt": "[Verse 1]\\n朝の市場で\\n湯気が立つ\\n割り下の匂い\\n胸を打つ\\n\\n鶏のやさしさ\\n卵のとろみ\\nひとつの椀に\\n家がある\\n\\n[Pre-Chorus]\\n急いで帰る\\nもう一杯\\n待たせるなよと\\n笑う声\\n\\n[Chorus]\\n親子丼 親子丼\\nあったかいな\\n親子丼 親子丼\\n泣けてくるな\\nひとくちで\\n今日がほどける\\n親子丼 親子丼\\nあったかいな\\n\\n[Verse 2]\\n駅のホームで\\n風に吹かれ\\n空っぽの夜を\\n持ち帰る\\n\\nだけどあの椀が\\n待っていた\\n黄身のまぶしさ\\n灯りみたい\\n\\n[Pre-Chorus]\\n急いで帰る\\nもう一杯\\n冷えた心を\\n包んでよ\\n\\n[Chorus]\\n親子丼 親子丼\\nあったかいな\\n親子丼 親子丼\\n泣けてくるな\\nひとくちで\\n今日がほどける\\n親子丼 親子丼\\nあったかいな\\n\\n[Bridge]\\n母の背中と\\n父の声\\nその間にある\\nやさしい味\\n\\n[Final Chorus]\\n親子丼 親子丼\\nあったかいな\\n親子丼 親子丼\\n泣けてくるな\\nひとくちで\\n今日がほどける\\n親子丼 親子丼\\nあったかいな",
+          "gpt_description_prompt": "親子丼,fast enka",
+          "type": "gen",
+          "duration": 214.88,
+          "refund_credits": false,
+          "stream": true,
+          "make_instrumental": false,
+          "task": "",
+          "can_remix": true,
+          "is_remix": false,
+          "priority": 10,
+          "has_stem": false,
+          "uses_latest_model": true,
+          "model_badges": {
+            "songcard": {
+              "display_name": "v5.5",
+              "light": {
+                "text_color": "FD429C",
+                "background_color": "0000004D",
+                "border_color": "00000000"
+              },
+              "dark": {
+                "text_color": "FD429C",
+                "background_color": "0000004D",
+                "border_color": "00000000"
+              }
+            },
+            "songrow": {
+              "display_name": "v5.5",
+              "light": {
+                "text_color": "FD429C",
+                "background_color": "FD429C1A",
+                "border_color": "00000000"
+              },
+              "dark": {
+                "text_color": "FD429C",
+                "background_color": "FD429C40",
+                "border_color": "00000000"
+              }
+            }
+          },
+          "is_mumble": false
+        },
+        "is_liked": false,
+        "user_id": "ffb3a927-e203-4f3a-82d6-d90eb98b60ac",
+        "display_name": "Taisuke Fukuno",
+        "handle": "taisukefukuno858",
+        "is_handle_updated": true,
+        "avatar_image_url": "https://cdn1.suno.ai/sAura3.jpg",
+        "is_trashed": false,
+        "is_hidden": false,
+        "created_at": "2026-04-24T14:22:20.352Z",
+        "is_public": false,
+        "explicit": false,
+        "comment_count": 0,
+        "flag_count": 0,
+        "display_tags": "enka, Japanese folk, upbeat traditional waltz (enka-style)",
+        "is_contest_clip": false,
+        "has_hook": false,
+        "batch_index": 1,
+        "action_config": {
+          "actions": [
+            {
+              "action_type": "add_to_playlist",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "like_song",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "share_song",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "dislike_song",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "report_song",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "remove_from_playlist",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "remix_extend",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "remix_cover",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "remix_reuse_style",
+              "disabled": false,
+              "visible": true
+            }
+          ]
+        }
+      },
+      "relative_index": 0
+    },
+    {
+      "clip": {
+        "status": "complete",
+        "title": "親子丼ブルース",
+        "play_count": 1,
+        "upvote_count": 0,
+        "allow_comments": true,
+        "is_verified": false,
+        "id": "574f4011-12fa-4ef7-8cd2-b4c666fadd40",
+        "entity_type": "song_schema",
+        "video_url": "",
+        "audio_url": "https://cdn1.suno.ai/574f4011-12fa-4ef7-8cd2-b4c666fadd40.mp3",
+        "image_url": "https://cdn2.suno.ai/image_574f4011-12fa-4ef7-8cd2-b4c666fadd40.jpeg",
+        "image_large_url": "https://cdn2.suno.ai/image_large_574f4011-12fa-4ef7-8cd2-b4c666fadd40.jpeg",
+        "major_model_version": "v5.5",
+        "model_name": "chirp-fenix",
+        "metadata": {
+          "tags": "Fast enka with a galloping waltz-leaning pulse, brisk shamisen and taiko accents, accordion sparkle in the turnaround; verse rides tight storytelling with short runs, pre-chorus lifts with rising melodic bends, chorus lands on a chantable refrain with stacked unison doubles. Breathy lead vocal with dramatic sobs, tight harmony on hook lines, quick ad-lib cries between phrases. Ear candy includes koto flicks, handclap pickups, and a sharp fill before each chorus. Bright, punchy mix with a glossy traditional sheen., enka",
+          "prompt": "[Verse 1]\\n朝の市場で\\n湯気が立つ\\n割り下の匂い\\n胸を打つ\\n\\n鶏のやさしさ\\n卵のとろみ\\nひとつの椀に\\n家がある\\n\\n[Pre-Chorus]\\n急いで帰る\\nもう一杯\\n待たせるなよと\\n笑う声\\n\\n[Chorus]\\n親子丼 親子丼\\nあったかいな\\n親子丼 親子丼\\n泣けてくるな\\nひとくちで\\n今日がほどける\\n親子丼 親子丼\\nあったかいな\\n\\n[Verse 2]\\n駅のホームで\\n風に吹かれ\\n空っぽの夜を\\n持ち帰る\\n\\nだけどあの椀が\\n待っていた\\n黄身のまぶしさ\\n灯りみたい\\n\\n[Pre-Chorus]\\n急いで帰る\\nもう一杯\\n冷えた心を\\n包んでよ\\n\\n[Chorus]\\n親子丼 親子丼\\nあったかいな\\n親子丼 親子丼\\n泣けてくるな\\nひとくちで\\n今日がほどける\\n親子丼 親子丼\\nあったかいな\\n\\n[Bridge]\\n母の背中と\\n父の声\\nその間にある\\nやさしい味\\n\\n[Final Chorus]\\n親子丼 親子丼\\nあったかいな\\n親子丼 親子丼\\n泣けてくるな\\nひとくちで\\n今日がほどける\\n親子丼 親子丼\\nあったかいな",
+          "gpt_description_prompt": "親子丼,fast enka",
+          "type": "gen",
+          "duration": 216.84,
+          "refund_credits": false,
+          "stream": true,
+          "make_instrumental": false,
+          "task": "",
+          "can_remix": true,
+          "is_remix": false,
+          "priority": 10,
+          "has_stem": false,
+          "uses_latest_model": true,
+          "model_badges": {
+            "songcard": {
+              "display_name": "v5.5",
+              "light": {
+                "text_color": "FD429C",
+                "background_color": "0000004D",
+                "border_color": "00000000"
+              },
+              "dark": {
+                "text_color": "FD429C",
+                "background_color": "0000004D",
+                "border_color": "00000000"
+              }
+            },
+            "songrow": {
+              "display_name": "v5.5",
+              "light": {
+                "text_color": "FD429C",
+                "background_color": "FD429C1A",
+                "border_color": "00000000"
+              },
+              "dark": {
+                "text_color": "FD429C",
+                "background_color": "FD429C40",
+                "border_color": "00000000"
+              }
+            }
+          },
+          "is_mumble": false
+        },
+        "is_liked": false,
+        "user_id": "ffb3a927-e203-4f3a-82d6-d90eb98b60ac",
+        "display_name": "Taisuke Fukuno",
+        "handle": "taisukefukuno858",
+        "is_handle_updated": true,
+        "avatar_image_url": "https://cdn1.suno.ai/sAura3.jpg",
+        "is_trashed": false,
+        "is_hidden": false,
+        "created_at": "2026-04-24T14:22:20.352Z",
+        "is_public": false,
+        "explicit": false,
+        "comment_count": 0,
+        "flag_count": 0,
+        "display_tags": "enka, Japanese folk, upbeat traditional waltz (enka-style)",
+        "is_contest_clip": false,
+        "has_hook": false,
+        "batch_index": 0,
+        "action_config": {
+          "actions": [
+            {
+              "action_type": "add_to_playlist",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "like_song",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "share_song",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "dislike_song",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "report_song",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "remove_from_playlist",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "remix_extend",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "remix_cover",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "remix_reuse_style",
+              "disabled": false,
+              "visible": true
+            }
+          ]
+        }
+      },
+      "relative_index": 1
+    },
+    {
+      "clip": {
+        "status": "complete",
+        "title": "親子丼",
+        "play_count": 1,
+        "upvote_count": 0,
+        "allow_comments": true,
+        "is_verified": false,
+        "id": "afabf35f-21e2-4dc6-b06c-da33e3f202ed",
+        "entity_type": "song_schema",
+        "video_url": "",
+        "audio_url": "https://cdn1.suno.ai/afabf35f-21e2-4dc6-b06c-da33e3f202ed.mp3",
+        "image_url": "https://cdn2.suno.ai/image_afabf35f-21e2-4dc6-b06c-da33e3f202ed.jpeg",
+        "image_large_url": "https://cdn2.suno.ai/image_large_afabf35f-21e2-4dc6-b06c-da33e3f202ed.jpeg",
+        "major_model_version": "v5.5",
+        "model_name": "chirp-fenix",
+        "metadata": {
+          "tags": "Eurobeat with a slower 132 BPM pulse, bouncy four-on-the-floor kick and offbeat bass stabs; verse rides tight and playful with sparse synth plucks, pre-chorus lifts on rising claps and filtered pads, chorus hits with stacked gang-vocal chants and a bright lead hook. Add reverse cymbal swells, tiny bell fills, and a short break before the final repeat. Crisp, glossy mix with punchy low end and wide tops, male vocals, slow",
+          "prompt": "[Verse 1]\\n朝の鍋の音\\nとろける玉ねぎ\\n鶏のうまみが\\nじんわりしみる\\n\\nたまごを落として\\nふわっと包んで\\nあなたの分まで\\nもう少し待って\\n\\n[Pre-Chorus]\\nあつあつのまま\\nはやく来て\\n湯気の向こうで\\n目が合って\\n\\n[Chorus]\\n親子丼 親子丼\\nひとくちで笑う\\n親子丼 親子丼\\n今日がやさしくなる\\n親子丼 親子丼\\nねえ こっちへおいで\\n親子丼 親子丼\\nあたたかいね\\n\\n[Verse 2]\\n七味を少し\\n白いごはんへ\\n木のさじ一杯\\n心がほどける\\n\\n忙しい日でも\\nこれなら大丈夫\\n言葉がなくても\\n伝わるおかず\\n\\n[Pre-Chorus]\\nあつあつのまま\\nはやく来て\\n湯気の向こうで\\n目が合って\\n\\n[Chorus]\\n親子丼 親子丼\\nひとくちで笑う\\n親子丼 親子丼\\n今日がやさしくなる\\n親子丼 親子丼\\nねえ こっちへおいで\\n親子丼 親子丼\\nあたたかいね\\n\\n[Bridge]\\n雨の帰り道\\n冷えた指先\\nでもこの器で\\nほどけていく\\n\\n[Final Chorus]\\n親子丼 親子丼\\nひとくちで笑う\\n親子丼 親子丼\\n今日がやさしくなる\\n親子丼 親子丼\\nねえ こっちへおいで\\n親子丼 親子丼\\nあたたかいね",
+          "gpt_description_prompt": "親子丼,slow eurobeat",
+          "type": "gen",
+          "duration": 214.92,
+          "refund_credits": false,
+          "stream": true,
+          "make_instrumental": false,
+          "task": "",
+          "can_remix": true,
+          "is_remix": false,
+          "priority": 10,
+          "has_stem": false,
+          "uses_latest_model": true,
+          "model_badges": {
+            "songcard": {
+              "display_name": "v5.5",
+              "light": {
+                "text_color": "FD429C",
+                "background_color": "0000004D",
+                "border_color": "00000000"
+              },
+              "dark": {
+                "text_color": "FD429C",
+                "background_color": "0000004D",
+                "border_color": "00000000"
+              }
+            },
+            "songrow": {
+              "display_name": "v5.5",
+              "light": {
+                "text_color": "FD429C",
+                "background_color": "FD429C1A",
+                "border_color": "00000000"
+              },
+              "dark": {
+                "text_color": "FD429C",
+                "background_color": "FD429C40",
+                "border_color": "00000000"
+              }
+            }
+          },
+          "is_mumble": false
+        },
+        "is_liked": false,
+        "user_id": "ffb3a927-e203-4f3a-82d6-d90eb98b60ac",
+        "display_name": "Taisuke Fukuno",
+        "handle": "taisukefukuno858",
+        "is_handle_updated": true,
+        "avatar_image_url": "https://cdn1.suno.ai/sAura3.jpg",
+        "is_trashed": false,
+        "is_hidden": false,
+        "created_at": "2026-04-24T14:18:22.022Z",
+        "is_public": false,
+        "explicit": false,
+        "comment_count": 0,
+        "flag_count": 0,
+        "display_tags": "eurobeat, dance-pop, synthwave-adjacent",
+        "is_contest_clip": false,
+        "has_hook": false,
+        "batch_index": 1,
+        "action_config": {
+          "actions": [
+            {
+              "action_type": "add_to_playlist",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "like_song",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "share_song",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "dislike_song",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "report_song",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "remove_from_playlist",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "remix_extend",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "remix_cover",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "remix_reuse_style",
+              "disabled": false,
+              "visible": true
+            }
+          ]
+        }
+      },
+      "relative_index": 2
+    },
+    {
+      "clip": {
+        "status": "complete",
+        "title": "親子丼",
+        "play_count": 1,
+        "upvote_count": 0,
+        "allow_comments": true,
+        "is_verified": false,
+        "id": "025286c2-7023-4cf5-bc13-915acab7b2ae",
+        "entity_type": "song_schema",
+        "video_url": "",
+        "audio_url": "https://cdn1.suno.ai/025286c2-7023-4cf5-bc13-915acab7b2ae.mp3",
+        "image_url": "https://cdn2.suno.ai/image_025286c2-7023-4cf5-bc13-915acab7b2ae.jpeg",
+        "image_large_url": "https://cdn2.suno.ai/image_large_025286c2-7023-4cf5-bc13-915acab7b2ae.jpeg",
+        "major_model_version": "v5.5",
+        "model_name": "chirp-fenix",
+        "metadata": {
+          "tags": "Eurobeat with a slower 132 BPM pulse, bouncy four-on-the-floor kick and offbeat bass stabs; verse rides tight and playful with sparse synth plucks, pre-chorus lifts on rising claps and filtered pads, chorus hits with stacked gang-vocal chants and a bright lead hook. Add reverse cymbal swells, tiny bell fills, and a short break before the final repeat. Crisp, glossy mix with punchy low end and wide tops, male vocals, slow",
+          "prompt": "[Verse 1]\\n朝の鍋の音\\nとろける玉ねぎ\\n鶏のうまみが\\nじんわりしみる\\n\\nたまごを落として\\nふわっと包んで\\nあなたの分まで\\nもう少し待って\\n\\n[Pre-Chorus]\\nあつあつのまま\\nはやく来て\\n湯気の向こうで\\n目が合って\\n\\n[Chorus]\\n親子丼 親子丼\\nひとくちで笑う\\n親子丼 親子丼\\n今日がやさしくなる\\n親子丼 親子丼\\nねえ こっちへおいで\\n親子丼 親子丼\\nあたたかいね\\n\\n[Verse 2]\\n七味を少し\\n白いごはんへ\\n木のさじ一杯\\n心がほどける\\n\\n忙しい日でも\\nこれなら大丈夫\\n言葉がなくても\\n伝わるおかず\\n\\n[Pre-Chorus]\\nあつあつのまま\\nはやく来て\\n湯気の向こうで\\n目が合って\\n\\n[Chorus]\\n親子丼 親子丼\\nひとくちで笑う\\n親子丼 親子丼\\n今日がやさしくなる\\n親子丼 親子丼\\nねえ こっちへおいで\\n親子丼 親子丼\\nあたたかいね\\n\\n[Bridge]\\n雨の帰り道\\n冷えた指先\\nでもこの器で\\nほどけていく\\n\\n[Final Chorus]\\n親子丼 親子丼\\nひとくちで笑う\\n親子丼 親子丼\\n今日がやさしくなる\\n親子丼 親子丼\\nねえ こっちへおいで\\n親子丼 親子丼\\nあたたかいね",
+          "gpt_description_prompt": "親子丼,slow eurobeat",
+          "type": "gen",
+          "duration": 217.12,
+          "refund_credits": false,
+          "stream": true,
+          "make_instrumental": false,
+          "task": "",
+          "can_remix": true,
+          "is_remix": false,
+          "priority": 10,
+          "has_stem": false,
+          "uses_latest_model": true,
+          "model_badges": {
+            "songcard": {
+              "display_name": "v5.5",
+              "light": {
+                "text_color": "FD429C",
+                "background_color": "0000004D",
+                "border_color": "00000000"
+              },
+              "dark": {
+                "text_color": "FD429C",
+                "background_color": "0000004D",
+                "border_color": "00000000"
+              }
+            },
+            "songrow": {
+              "display_name": "v5.5",
+              "light": {
+                "text_color": "FD429C",
+                "background_color": "FD429C1A",
+                "border_color": "00000000"
+              },
+              "dark": {
+                "text_color": "FD429C",
+                "background_color": "FD429C40",
+                "border_color": "00000000"
+              }
+            }
+          },
+          "is_mumble": false
+        },
+        "is_liked": false,
+        "user_id": "ffb3a927-e203-4f3a-82d6-d90eb98b60ac",
+        "display_name": "Taisuke Fukuno",
+        "handle": "taisukefukuno858",
+        "is_handle_updated": true,
+        "avatar_image_url": "https://cdn1.suno.ai/sAura3.jpg",
+        "is_trashed": false,
+        "is_hidden": false,
+        "created_at": "2026-04-24T14:18:22.022Z",
+        "is_public": false,
+        "explicit": false,
+        "comment_count": 0,
+        "flag_count": 0,
+        "display_tags": "eurobeat, dance-pop, synthwave-adjacent",
+        "is_contest_clip": false,
+        "has_hook": false,
+        "batch_index": 0,
+        "action_config": {
+          "actions": [
+            {
+              "action_type": "add_to_playlist",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "like_song",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "share_song",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "dislike_song",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "report_song",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "remove_from_playlist",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "remix_extend",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "remix_cover",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "remix_reuse_style",
+              "disabled": false,
+              "visible": true
+            }
+          ]
+        }
+      },
+      "relative_index": 3
+    },
+    {
+      "clip": {
+        "status": "complete",
+        "title": "親子丼",
+        "play_count": 1,
+        "upvote_count": 0,
+        "allow_comments": true,
+        "is_verified": false,
+        "id": "15b882ee-bf0b-4365-9417-dfdd869bae21",
+        "entity_type": "song_schema",
+        "video_url": "",
+        "audio_url": "https://cdn1.suno.ai/15b882ee-bf0b-4365-9417-dfdd869bae21.mp3",
+        "image_url": "https://cdn2.suno.ai/image_15b882ee-bf0b-4365-9417-dfdd869bae21.jpeg",
+        "image_large_url": "https://cdn2.suno.ai/image_large_15b882ee-bf0b-4365-9417-dfdd869bae21.jpeg",
+        "major_model_version": "v5.5",
+        "model_name": "chirp-fenix",
+        "metadata": {
+          "tags": "Reggae with laid-back offbeat skank, warm bass pulse, and sunlit one-drop groove; verse rides sparse guitar chops and shaker; pre-chorus strips to bass and hand percussion; chorus opens with roomy organ bubbles and crowd-style doubles. Lead vocal stays close-mic and easy, with short delay throws on the hook word, little ad-lib calls between lines, and toasted backing replies. Crisp, breezy mix with a soft analog glow., reggae",
+          "prompt": "[Verse 1]\\nねぎの香りが立つ\\n鍋のふちで待ってる\\n鶏がぷるっと白くなって\\nだしがじんわりしみる\\n\\n玉ねぎは透けるまで\\n箸でそっとゆらして\\n卵は二回にわけて\\nふわっと重ねる\\n\\n[Pre-Chorus]\\n急がなくていい\\nこの手順がいちばん\\n湯気の向こうで\\n心もやわらぐ\\n\\n[Chorus]\\n親子丼　親子丼\\nあったかいままで\\n親子丼　親子丼\\n今日の疲れほどける\\nひとくちで笑うよ\\n親子丼　親子丼\\n\\n[Verse 2]\\n昼の終わりに\\nどんぶりを両手で持って\\n米の上のやさしさ\\n最後の一粒まで\\n\\n七味を少し落として\\n海苔を細く散らして\\n急ぐ日でもこれなら\\nちゃんと帰ってこれる\\n\\n[Pre-Chorus]\\n冷める前に\\nあなたの前へ\\n甘いだけじゃない\\nだしの声がする\\n\\n[Chorus]\\n親子丼　親子丼\\nあったかいままで\\n親子丼　親子丼\\n今日の疲れほどける\\nひとくちで笑うよ\\n親子丼　親子丼\\n\\n[Bridge]\\n雨が降っても\\n台所は晴れてる\\n小さな火のそばで\\nまた明日も作る\\n\\n[Final Chorus]\\n親子丼　親子丼\\nあったかいままで\\n親子丼　親子丼\\n今日の疲れほどける\\nあなたと分け合うよ\\n親子丼　親子丼",
+          "gpt_description_prompt": "親子丼,Reggae",
+          "type": "gen",
+          "duration": 210.8,
+          "refund_credits": false,
+          "stream": true,
+          "make_instrumental": false,
+          "can_remix": true,
+          "is_remix": false,
+          "priority": 10,
+          "has_stem": false,
+          "uses_latest_model": true,
+          "model_badges": {
+            "songcard": {
+              "display_name": "v5.5",
+              "light": {
+                "text_color": "FD429C",
+                "background_color": "0000004D",
+                "border_color": "00000000"
+              },
+              "dark": {
+                "text_color": "FD429C",
+                "background_color": "0000004D",
+                "border_color": "00000000"
+              }
+            },
+            "songrow": {
+              "display_name": "v5.5",
+              "light": {
+                "text_color": "FD429C",
+                "background_color": "FD429C1A",
+                "border_color": "00000000"
+              },
+              "dark": {
+                "text_color": "FD429C",
+                "background_color": "FD429C40",
+                "border_color": "00000000"
+              }
+            }
+          },
+          "is_mumble": false
+        },
+        "is_liked": false,
+        "user_id": "ffb3a927-e203-4f3a-82d6-d90eb98b60ac",
+        "display_name": "Taisuke Fukuno",
+        "handle": "taisukefukuno858",
+        "is_handle_updated": true,
+        "avatar_image_url": "https://cdn1.suno.ai/sAura3.jpg",
+        "is_trashed": false,
+        "is_hidden": false,
+        "created_at": "2026-04-24T13:56:55.352Z",
+        "is_public": false,
+        "explicit": false,
+        "comment_count": 0,
+        "flag_count": 0,
+        "display_tags": "reggae, dub-influenced, one-drop",
+        "is_contest_clip": false,
+        "has_hook": false,
+        "batch_index": 1,
+        "action_config": {
+          "actions": [
+            {
+              "action_type": "add_to_playlist",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "like_song",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "share_song",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "dislike_song",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "report_song",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "remove_from_playlist",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "remix_extend",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "remix_cover",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "remix_reuse_style",
+              "disabled": false,
+              "visible": true
+            }
+          ]
+        }
+      },
+      "relative_index": 4
+    },
+    {
+      "clip": {
+        "status": "complete",
+        "title": "親子丼",
+        "play_count": 0,
+        "upvote_count": 0,
+        "allow_comments": true,
+        "is_verified": false,
+        "id": "a8ddaa04-0523-4f2f-a45b-9cbfb46e6bec",
+        "entity_type": "song_schema",
+        "video_url": "",
+        "audio_url": "https://cdn1.suno.ai/a8ddaa04-0523-4f2f-a45b-9cbfb46e6bec.mp3",
+        "image_url": "https://cdn2.suno.ai/image_a8ddaa04-0523-4f2f-a45b-9cbfb46e6bec.jpeg",
+        "image_large_url": "https://cdn2.suno.ai/image_large_a8ddaa04-0523-4f2f-a45b-9cbfb46e6bec.jpeg",
+        "major_model_version": "v5.5",
+        "model_name": "chirp-fenix",
+        "metadata": {
+          "tags": "Reggae with laid-back offbeat skank, warm bass pulse, and sunlit one-drop groove; verse rides sparse guitar chops and shaker; pre-chorus strips to bass and hand percussion; chorus opens with roomy organ bubbles and crowd-style doubles. Lead vocal stays close-mic and easy, with short delay throws on the hook word, little ad-lib calls between lines, and toasted backing replies. Crisp, breezy mix with a soft analog glow., reggae",
+          "prompt": "[Verse 1]\\nねぎの香りが立つ\\n鍋のふちで待ってる\\n鶏がぷるっと白くなって\\nだしがじんわりしみる\\n\\n玉ねぎは透けるまで\\n箸でそっとゆらして\\n卵は二回にわけて\\nふわっと重ねる\\n\\n[Pre-Chorus]\\n急がなくていい\\nこの手順がいちばん\\n湯気の向こうで\\n心もやわらぐ\\n\\n[Chorus]\\n親子丼　親子丼\\nあったかいままで\\n親子丼　親子丼\\n今日の疲れほどける\\nひとくちで笑うよ\\n親子丼　親子丼\\n\\n[Verse 2]\\n昼の終わりに\\nどんぶりを両手で持って\\n米の上のやさしさ\\n最後の一粒まで\\n\\n七味を少し落として\\n海苔を細く散らして\\n急ぐ日でもこれなら\\nちゃんと帰ってこれる\\n\\n[Pre-Chorus]\\n冷める前に\\nあなたの前へ\\n甘いだけじゃない\\nだしの声がする\\n\\n[Chorus]\\n親子丼　親子丼\\nあったかいままで\\n親子丼　親子丼\\n今日の疲れほどける\\nひとくちで笑うよ\\n親子丼　親子丼\\n\\n[Bridge]\\n雨が降っても\\n台所は晴れてる\\n小さな火のそばで\\nまた明日も作る\\n\\n[Final Chorus]\\n親子丼　親子丼\\nあったかいままで\\n親子丼　親子丼\\n今日の疲れほどける\\nあなたと分け合うよ\\n親子丼　親子丼",
+          "gpt_description_prompt": "親子丼,Reggae",
+          "type": "gen",
+          "duration": 189.6,
+          "refund_credits": false,
+          "stream": true,
+          "make_instrumental": false,
+          "can_remix": true,
+          "is_remix": false,
+          "priority": 10,
+          "has_stem": false,
+          "uses_latest_model": true,
+          "model_badges": {
+            "songcard": {
+              "display_name": "v5.5",
+              "light": {
+                "text_color": "FD429C",
+                "background_color": "0000004D",
+                "border_color": "00000000"
+              },
+              "dark": {
+                "text_color": "FD429C",
+                "background_color": "0000004D",
+                "border_color": "00000000"
+              }
+            },
+            "songrow": {
+              "display_name": "v5.5",
+              "light": {
+                "text_color": "FD429C",
+                "background_color": "FD429C1A",
+                "border_color": "00000000"
+              },
+              "dark": {
+                "text_color": "FD429C",
+                "background_color": "FD429C40",
+                "border_color": "00000000"
+              }
+            }
+          },
+          "is_mumble": false
+        },
+        "is_liked": false,
+        "user_id": "ffb3a927-e203-4f3a-82d6-d90eb98b60ac",
+        "display_name": "Taisuke Fukuno",
+        "handle": "taisukefukuno858",
+        "is_handle_updated": true,
+        "avatar_image_url": "https://cdn1.suno.ai/sAura3.jpg",
+        "is_trashed": false,
+        "is_hidden": false,
+        "created_at": "2026-04-24T13:56:55.352Z",
+        "is_public": false,
+        "explicit": false,
+        "comment_count": 0,
+        "flag_count": 0,
+        "display_tags": "reggae, dub-influenced, one-drop",
+        "is_contest_clip": false,
+        "has_hook": false,
+        "batch_index": 0,
+        "action_config": {
+          "actions": [
+            {
+              "action_type": "add_to_playlist",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "like_song",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "share_song",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "dislike_song",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "report_song",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "remove_from_playlist",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "remix_extend",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "remix_cover",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "remix_reuse_style",
+              "disabled": false,
+              "visible": true
+            }
+          ]
+        }
+      },
+      "relative_index": 5
+    },
+    {
+      "clip": {
+        "status": "complete",
+        "title": "親子丼の夜",
+        "play_count": 3,
+        "upvote_count": 0,
+        "allow_comments": true,
+        "is_verified": false,
+        "id": "af80e5db-e6aa-4f69-8c1b-a3c697723163",
+        "entity_type": "song_schema",
+        "video_url": "",
+        "audio_url": "https://cdn1.suno.ai/af80e5db-e6aa-4f69-8c1b-a3c697723163.mp3",
+        "image_url": "https://cdn2.suno.ai/image_af80e5db-e6aa-4f69-8c1b-a3c697723163.jpeg",
+        "image_large_url": "https://cdn2.suno.ai/image_large_af80e5db-e6aa-4f69-8c1b-a3c697723163.jpeg",
+        "major_model_version": "v5.5",
+        "model_name": "chirp-fenix",
+        "metadata": {
+          "tags": "Japanese indie pop / folk rock with warm acoustic guitar, soft brushed drums, subtle bass, female vocals with a husky natural tone, intimate lo-fi texture, bittersweet sunset mood, verse-to-chorus lift with gentle harmony doubles, small drum fills and tape-worn room ambience, bright yet tender mix, soft, nostalgic, emotional, acoustic, warm, indie pop, natural, simple, folk rock, tone, lo-fi, female vocals",
+          "prompt": "[Verse 1]\\n湯気の向こうで\\nあなたが笑う\\n小さな台所\\n今夜は親子丼\\n\\n玉ねぎの甘さ\\nしみるみたいで\\n何でもない日が\\n少しだけ好き\\n\\n[Pre-Chorus]\\nささいな言葉が\\n胸に残って\\n帰り道よりも\\n長くあたたかい\\n\\n[Chorus]\\n親子丼の夜\\nふたりで分けた\\n親子丼の夜\\nそれだけでいい\\n親子丼の夜\\nまだ覚えてる\\n(親子丼の夜)\\nやさしい時間\\n\\n[Verse 2]\\n朝のバタバタ\\n置きっぱなしの靴\\n眠たそうな声\\nそれでも平気\\n\\n同じ景色でも\\n違って見えた\\nあなたの隣だと\\n世界は丸い\\n\\n[Pre-Chorus]\\n少し焦げた匂い\\nふいに思い出す\\nあの日のぬくもり\\n指先まで\\n\\n[Chorus]\\n親子丼の夜\\nふたりで分けた\\n親子丼の夜\\nそれだけでいい\\n親子丼の夜\\nまだ覚えてる\\n(親子丼の夜)\\nやさしい時間\\n\\n[Bridge]\\n離れてもなお\\n消えないものがある\\n名前もつけずに\\n心に残るもの\\n\\n[Final Chorus]\\n親子丼の夜\\nひとりで食べても\\n親子丼の夜\\nあなたがいるよ\\n親子丼の夜\\nちゃんと覚えてる\\n(親子丼の夜)\\n帰れる場所",
+          "gpt_description_prompt": "親子丼,Warm, nostalgic Japanese indie pop with a touch of folk rock. Female vocals with a slightly husky, natural tone. Simple but emotional melody, acoustic guitar-driven arrangement, soft drums, and subtle bass. Lyrics feel personal, bittersweet, and reflective about everyday life and love. Lo-fi texture, intimate atmosphere, like a quiet sunset in a small town. Catchy but understated chorus.",
+          "type": "gen",
+          "duration": 216.64,
+          "refund_credits": false,
+          "stream": true,
+          "make_instrumental": false,
+          "can_remix": true,
+          "is_remix": false,
+          "priority": 10,
+          "has_stem": false,
+          "uses_latest_model": true,
+          "model_badges": {
+            "songcard": {
+              "display_name": "v5.5",
+              "light": {
+                "text_color": "FD429C",
+                "background_color": "0000004D",
+                "border_color": "00000000"
+              },
+              "dark": {
+                "text_color": "FD429C",
+                "background_color": "0000004D",
+                "border_color": "00000000"
+              }
+            },
+            "songrow": {
+              "display_name": "v5.5",
+              "light": {
+                "text_color": "FD429C",
+                "background_color": "FD429C1A",
+                "border_color": "00000000"
+              },
+              "dark": {
+                "text_color": "FD429C",
+                "background_color": "FD429C40",
+                "border_color": "00000000"
+              }
+            }
+          },
+          "is_mumble": false
+        },
+        "is_liked": false,
+        "user_id": "ffb3a927-e203-4f3a-82d6-d90eb98b60ac",
+        "display_name": "Taisuke Fukuno",
+        "handle": "taisukefukuno858",
+        "is_handle_updated": true,
+        "avatar_image_url": "https://cdn1.suno.ai/sAura3.jpg",
+        "is_trashed": false,
+        "is_hidden": false,
+        "created_at": "2026-04-24T13:38:59.171Z",
+        "is_public": false,
+        "explicit": false,
+        "comment_count": 0,
+        "flag_count": 0,
+        "display_tags": "indie pop, folk rock, lo-fi",
+        "is_contest_clip": false,
+        "has_hook": false,
+        "batch_index": 1,
+        "action_config": {
+          "actions": [
+            {
+              "action_type": "add_to_playlist",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "like_song",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "share_song",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "dislike_song",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "report_song",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "remove_from_playlist",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "remix_extend",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "remix_cover",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "remix_reuse_style",
+              "disabled": false,
+              "visible": true
+            }
+          ]
+        }
+      },
+      "relative_index": 6
+    },
+    {
+      "clip": {
+        "status": "complete",
+        "title": "親子丼の夜",
+        "play_count": 2,
+        "upvote_count": 0,
+        "allow_comments": true,
+        "is_verified": false,
+        "id": "92babff7-8cbe-4593-b8da-b3123bd61588",
+        "entity_type": "song_schema",
+        "video_url": "",
+        "audio_url": "https://cdn1.suno.ai/92babff7-8cbe-4593-b8da-b3123bd61588.mp3",
+        "image_url": "https://cdn2.suno.ai/image_92babff7-8cbe-4593-b8da-b3123bd61588.jpeg",
+        "image_large_url": "https://cdn2.suno.ai/image_large_92babff7-8cbe-4593-b8da-b3123bd61588.jpeg",
+        "major_model_version": "v5.5",
+        "model_name": "chirp-fenix",
+        "metadata": {
+          "tags": "Japanese indie pop / folk rock with warm acoustic guitar, soft brushed drums, subtle bass, female vocals with a husky natural tone, intimate lo-fi texture, bittersweet sunset mood, verse-to-chorus lift with gentle harmony doubles, small drum fills and tape-worn room ambience, bright yet tender mix, soft, nostalgic, emotional, acoustic, warm, indie pop, natural, simple, folk rock, tone, lo-fi, female vocals",
+          "prompt": "[Verse 1]\\n湯気の向こうで\\nあなたが笑う\\n小さな台所\\n今夜は親子丼\\n\\n玉ねぎの甘さ\\nしみるみたいで\\n何でもない日が\\n少しだけ好き\\n\\n[Pre-Chorus]\\nささいな言葉が\\n胸に残って\\n帰り道よりも\\n長くあたたかい\\n\\n[Chorus]\\n親子丼の夜\\nふたりで分けた\\n親子丼の夜\\nそれだけでいい\\n親子丼の夜\\nまだ覚えてる\\n(親子丼の夜)\\nやさしい時間\\n\\n[Verse 2]\\n朝のバタバタ\\n置きっぱなしの靴\\n眠たそうな声\\nそれでも平気\\n\\n同じ景色でも\\n違って見えた\\nあなたの隣だと\\n世界は丸い\\n\\n[Pre-Chorus]\\n少し焦げた匂い\\nふいに思い出す\\nあの日のぬくもり\\n指先まで\\n\\n[Chorus]\\n親子丼の夜\\nふたりで分けた\\n親子丼の夜\\nそれだけでいい\\n親子丼の夜\\nまだ覚えてる\\n(親子丼の夜)\\nやさしい時間\\n\\n[Bridge]\\n離れてもなお\\n消えないものがある\\n名前もつけずに\\n心に残るもの\\n\\n[Final Chorus]\\n親子丼の夜\\nひとりで食べても\\n親子丼の夜\\nあなたがいるよ\\n親子丼の夜\\nちゃんと覚えてる\\n(親子丼の夜)\\n帰れる場所",
+          "gpt_description_prompt": "親子丼,Warm, nostalgic Japanese indie pop with a touch of folk rock. Female vocals with a slightly husky, natural tone. Simple but emotional melody, acoustic guitar-driven arrangement, soft drums, and subtle bass. Lyrics feel personal, bittersweet, and reflective about everyday life and love. Lo-fi texture, intimate atmosphere, like a quiet sunset in a small town. Catchy but understated chorus.",
+          "type": "gen",
+          "duration": 157.48,
+          "refund_credits": false,
+          "stream": true,
+          "make_instrumental": false,
+          "can_remix": true,
+          "is_remix": false,
+          "priority": 10,
+          "has_stem": false,
+          "uses_latest_model": true,
+          "model_badges": {
+            "songcard": {
+              "display_name": "v5.5",
+              "light": {
+                "text_color": "FD429C",
+                "background_color": "0000004D",
+                "border_color": "00000000"
+              },
+              "dark": {
+                "text_color": "FD429C",
+                "background_color": "0000004D",
+                "border_color": "00000000"
+              }
+            },
+            "songrow": {
+              "display_name": "v5.5",
+              "light": {
+                "text_color": "FD429C",
+                "background_color": "FD429C1A",
+                "border_color": "00000000"
+              },
+              "dark": {
+                "text_color": "FD429C",
+                "background_color": "FD429C40",
+                "border_color": "00000000"
+              }
+            }
+          },
+          "is_mumble": false
+        },
+        "is_liked": false,
+        "user_id": "ffb3a927-e203-4f3a-82d6-d90eb98b60ac",
+        "display_name": "Taisuke Fukuno",
+        "handle": "taisukefukuno858",
+        "is_handle_updated": true,
+        "avatar_image_url": "https://cdn1.suno.ai/sAura3.jpg",
+        "is_trashed": false,
+        "is_hidden": false,
+        "created_at": "2026-04-24T13:38:59.171Z",
+        "is_public": false,
+        "explicit": false,
+        "comment_count": 0,
+        "flag_count": 0,
+        "display_tags": "indie pop, folk rock, lo-fi",
+        "is_contest_clip": false,
+        "has_hook": false,
+        "batch_index": 0,
+        "action_config": {
+          "actions": [
+            {
+              "action_type": "add_to_playlist",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "like_song",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "share_song",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "dislike_song",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "report_song",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "remove_from_playlist",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "remix_extend",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "remix_cover",
+              "disabled": false,
+              "visible": true
+            },
+            {
+              "action_type": "remix_reuse_style",
+              "disabled": false,
+              "visible": true
+            }
+          ]
+        }
+      },
+      "relative_index": 7
+    }
+  ],
+  "image_url": "https://cdn2.suno.ai/image_a5d20ca2-0542-4df9-be56-97f711a81cc7.jpeg",
+  "num_total_results": 8,
+  "current_page": 1,
+  "is_owned": false,
+  "is_trashed": false,
+  "is_public": false,
+  "is_hidden": false,
+  "user_display_name": "Taisuke Fukuno",
+  "user_handle": "taisukefukuno858",
+  "user_avatar_image_url": "https://cdn1.suno.ai/sAura3.jpg",
+  "user_is_verified": false,
+  "description": "",
+  "reaction": "",
+  "upvote_count": 0,
+  "dislike_count": 0,
+  "flag_count": 0,
+  "skip_count": 0,
+  "play_count": 0,
+  "song_count": 0,
+  "total_duration": 1638.28,
+  "is_discover_playlist": false,
+  "clipIds": [
+    "a5d20ca2-0542-4df9-be56-97f711a81cc7",
+    "574f4011-12fa-4ef7-8cd2-b4c666fadd40",
+    "afabf35f-21e2-4dc6-b06c-da33e3f202ed",
+    "025286c2-7023-4cf5-bc13-915acab7b2ae",
+    "15b882ee-bf0b-4365-9417-dfdd869bae21",
+    "a8ddaa04-0523-4f2f-a45b-9cbfb46e6bec",
+    "af80e5db-e6aa-4f69-8c1b-a3c697723163",
+    "92babff7-8cbe-4593-b8da-b3123bd61588"
+  ]
+}
